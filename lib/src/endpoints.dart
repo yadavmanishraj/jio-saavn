@@ -8,6 +8,15 @@
 /// 5. _marker: 0
 /// 5. __call: Below are the values to this params
 class Endpoints {
+  /// Required by all request, must be added before sending andy request to server
+  static const baseParams = {
+    "includeMetaTags": "0",
+    "ctx": "web6dot0",
+    "api_version": "4",
+    "_format": "json",
+    "_marker": "0",
+  };
+
   /// Gets data from home page the launch screen
   static const homeData = "webapi.getLaunchData";
 
