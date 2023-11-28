@@ -17,6 +17,8 @@ class Endpoints {
     "_marker": "0",
   };
 
+  static const host = "jiosaavn.com";
+
   /// Gets data from home page the launch screen
   static const homeData = "webapi.getLaunchData";
 
